@@ -1,276 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Forestry Researcher | Wood Science</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilak Neupane</title>
 
-    <!-- Simple internal styling (still all in one HTML file) -->
     <style>
         body {
             margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f4f6f5;
-            color: #1f2a24;
-            line-height: 1.6;
-        }
-
-        header {
-            background: #1b4332; /* forest green */
-            color: #fefefe;
-            padding: 2rem 1rem;
+            font-family: Arial, sans-serif;
+            background: #fafafa;
             text-align: center;
+            padding: 50px 20px;
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 2rem;
+        h1 {
+            font-size: 48px;
+            margin-bottom: 5px;
         }
 
-        header p {
-            margin: 0.5rem 0 0;
-            font-size: 1rem;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 1.5rem;
-        }
-
-        .profile-card {
-            background: #ffffff;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-            margin-bottom: 1.5rem;
-        }
-
-        .profile-header {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-            align-items: center;
-        }
-
-        .profile-photo {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            background: #d8e2dc;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.9rem;
-            color: #495057;
-        }
-
-        .profile-info h2 {
-            margin: 0;
-            font-size: 1.6rem;
-        }
-
-        .profile-info p {
-            margin: 0.3rem 0;
-        }
-
-        h3 {
+        h2 {
+            font-size: 24px;
+            color: #555;
             margin-top: 0;
-            color: #1b4332;
-        }
-
-        .tagline {
-            font-style: italic;
-            color: #495057;
+            margin-bottom: 40px;
         }
 
         .section {
-            margin-bottom: 1.5rem;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            text-align: left;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #ddd;
         }
 
-        .pill-list {
-            list-style: none;
-            padding: 0;
-            margin: 0.5rem 0 0;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
+        .section h3 {
+            margin-top: 0;
+            font-size: 22px;
+            color: #333;
         }
 
-        .pill-list li {
-            background: #e0f2e9;
-            border-radius: 20px;
-            padding: 0.3rem 0.7rem;
-            font-size: 0.85rem;
+        .section p, .section ul {
+            font-size: 18px;
+            color: #444;
+            line-height: 1.6;
         }
 
-        .pub-list,
-        .list-simple {
-            padding-left: 1.2rem;
-            margin: 0.3rem 0;
+        ul {
+            margin: 10px 0 0 20px;
         }
 
-        .pub-list li {
-            margin-bottom: 0.4rem;
-        }
-
-        .contact-list {
-            list-style: none;
-            padding: 0;
-            margin: 0.3rem 0;
-        }
-
-        .contact-list li {
-            margin-bottom: 0.2rem;
-        }
-
-        a {
-            color: #0b7285;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            font-size: 0.85rem;
-            color: #6c757d;
-            padding: 1rem;
-            margin-top: 1rem;
-        }
-
-        /* Small screen tweaks */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.6rem;
-            }
-            .profile-header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
+        .footer {
+            margin-top: 40px;
+            font-size: 16px;
+            color: #777;
         }
     </style>
 </head>
+
 <body>
 
-    <header>
-        <h1>Forest & Wood Science Research</h1>
-        <p>Profile of a Forestry Researcher Specializing in Wood Science</p>
-    </header>
+    <h1>Tilak Neupane</h1>
+    <h2>PhD Student, Department of Sustainable Bioproducts</h2>
 
-    <div class="container">
-
-        <!-- Profile Card -->
-        <section class="profile-card">
-            <div class="profile-header">
-                <div class="profile-photo">
-                    <!-- Replace with your photo later if you want -->
-                    Your Photo
-                </div>
-                <div class="profile-info">
-                    <h2>Your Name</h2>
-                    <p class="tagline">Forestry Researcher | Wood Science & Sustainable Bioproducts</p>
-                    <p>Department / School of Forestry & Natural Resources<br>
-                       University / Institution Name<br>
-                       City, Country
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Research Interests -->
-        <section class="profile-card">
-            <div class="section">
-                <h3>Research Interests</h3>
-                <ul class="pill-list">
-                    <li>Wood science & technology</li>
-                    <li>Forest products & bioproducts</li>
-                    <li>Mechanical properties of wood</li>
-                    <li>Wood drying & moisture dynamics</li>
-                    <li>Non-destructive evaluation (NDE)</li>
-                    <li>Thermally modified wood</li>
-                    <li>Machine learning in wood science</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h3>Current Research Focus</h3>
-                <p>
-                    My work focuses on understanding how wood structure, moisture content, and
-                    processing conditions influence the mechanical and durability performance of
-                    wood and wood-based products. I am particularly interested in integrating
-                    experimental testing with data-driven and machine learning methods to improve
-                    prediction of properties such as stiffness, strength, and dimensional stability.
-                </p>
-            </div>
-        </section>
-
-        <!-- Projects / Publications -->
-        <section class="profile-card">
-            <div class="section">
-                <h3>Selected Projects</h3>
-                <ul class="list-simple">
-                    <li>Predicting mechanical properties of structural lumber using acoustic velocity and image-based features.</li>
-                    <li>Evaluating the effects of thermal modification on color and mechanical performance of wood.</li>
-                    <li>Using non-destructive testing to assess quality and uniformity of forest products.</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h3>Sample Publications</h3>
-                <ul class="pub-list">
-                    <li>
-                        Author, A., &amp; Author, B. (2024). 
-                        <em>Machine learning approaches for predicting wood mechanical properties using imaging data.</em> 
-                        Journal of Wood Science.
-                    </li>
-                    <li>
-                        Author, A. (2023).
-                        <em>Effects of thermal modification on color and stiffness of temperate hardwood species.</em>
-                        Forest Products Journal.
-                    </li>
-                    <li>
-                        Author, A., Author, C. (2022).
-                        <em>Non-destructive evaluation of structural timber using stress-wave and ultrasonic techniques.</em>
-                        European Journal of Wood and Wood Products.
-                    </li>
-                </ul>
-                <p style="font-size:0.9rem;">(Replace these with your real publications or conference papers.)</p>
-            </div>
-        </section>
-
-        <!-- Teaching & Outreach -->
-        <section class="profile-card">
-            <div class="section">
-                <h3>Teaching & Outreach</h3>
-                <ul class="list-simple">
-                    <li>Laboratory instruction in wood identification and physical properties of wood.</li>
-                    <li>Workshops on sustainable use of forest resources and wood-based materials.</li>
-                    <li>Mentoring students in research projects on wood quality, grading, and modeling.</li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Contact -->
-        <section class="profile-card">
-            <div class="section">
-                <h3>Contact</h3>
-                <ul class="contact-list">
-                    <li><strong>Email:</strong> <a href="mailto:your.email@university.edu">your.email@university.edu</a></li>
-                    <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
-                    <li><strong>Google Scholar:</strong> <a href="https://scholar.google.com" target="_blank">View profile</a></li>
-                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com" target="_blank">View profile</a></li>
-                </ul>
-            </div>
-        </section>
-
+    <!-- About Me -->
+    <div class="section">
+        <h3>About Me</h3>
+        <p>
+            PhD student in the Department of Sustainable Bioproducts at Mississippi State University.
+        </p>
     </div>
 
-    <footer>
-        &copy; <span id="year">2025</span> Your Name &middot; Wood Science & Forestry Research
-    </footer>
+    <!-- Research Interests -->
+    <div class="section">
+        <h3>Research Interests</h3>
+        <ul>
+            <li>Wood Science</li>
+            <li>Deep Learning
+            <li>Moisture Content Prediction</li>
+            <li>Image Processing & Computer Vision</li>
+            
+        </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="section">
+        <h3>Contact</h3>
+        <p>Email: <strong>tn614@msstate.edu</strong></p>
+    </div>
+
+    <div class="footer">
+        © 2025 Tilak Neupane — All Rights Reserved
+    </div>
 
 </body>
 </html>
